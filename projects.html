@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav>
+    <a class="nav-brand" href="index.html">Your Name</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+
+    <div class="section-header">
+      <p class="section-label">My Work</p>
+      <h2 class="section-title">Projects & Publications</h2>
+      <p class="section-sub">A selection of research projects and published work.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- ── Project 1 ── -->
+      <article class="project-card">
+        <!-- Replace placeholder with an actual image:
+             <img src="assets/project1.jpg" alt="Project 1" class="project-img" />
+        -->
+        <div class="project-img-placeholder">🔬</div>
+        <div class="project-body">
+          <p class="project-category">Research · 2024</p>
+          <h3 class="project-title">Project Title One</h3>
+          <p class="project-desc">
+            A short, clear description of what this project is about,
+            what problem it solves, and why it matters. Two to three
+            sentences is ideal.
+          </p>
+          <a href="https://doi.org/XXXXX" target="_blank" rel="noopener" class="project-link">
+            <!-- paper icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+            </svg>
+            View Publication
+          </a>
+        </div>
+      </article>
+
+      <!-- ── Project 2 ── -->
+      <article class="project-card">
+        <div class="project-img-placeholder">🤖</div>
+        <div class="project-body">
+          <p class="project-category">Research · 2023</p>
+          <h3 class="project-title">Project Title Two</h3>
+          <p class="project-desc">
+            A short, clear description of what this project is about,
+            what problem it solves, and why it matters. Two to three
+            sentences is ideal.
+          </p>
+          <a href="https://doi.org/XXXXX" target="_blank" rel="noopener" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+            </svg>
+            View Publication
+          </a>
+        </div>
+      </article>
+
+      <!-- ── Project 3 ── -->
+      <article class="project-card">
+        <div class="project-img-placeholder">📊</div>
+        <div class="project-body">
+          <p class="project-category">Research · 2023</p>
+          <h3 class="project-title">Project Title Three</h3>
+          <p class="project-desc">
+            A short, clear description of what this project is about,
+            what problem it solves, and why it matters. Two to three
+            sentences is ideal.
+          </p>
+          <a href="https://doi.org/XXXXX" target="_blank" rel="noopener" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+            </svg>
+            View Publication
+          </a>
+        </div>
+      </article>
+
+      <!-- ── Add more project cards by duplicating the block above ── -->
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; <span id="yr"></span> Your Name
+  </footer>
+
+  <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>

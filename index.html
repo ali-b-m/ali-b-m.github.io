@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Researcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav>
+    <a class="nav-brand" href="index.html">Your Name</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+
+    <!-- ── Hero ── -->
+    <section class="home-hero">
+
+      <!-- Replace the placeholder below with an <img> once you have a photo:
+           <img src="assets/profile.jpg" alt="Your Name" class="avatar" />
+      -->
+      <div class="avatar-wrap">
+        <div class="avatar-placeholder">👤</div>
+      </div>
+
+      <h1 class="home-name">Your Name</h1>
+      <p class="home-title">PhD Researcher · University Name</p>
+
+      <p class="home-bio">
+        I am a researcher in [your field], working on [main topic].
+        My work sits at the intersection of [area A] and [area B],
+        with a focus on [specific interest]. I am passionate about
+        [a value or goal you care about].
+      </p>
+
+      <div class="btn-row">
+        <a href="projects.html" class="btn btn-primary">View My Work</a>
+        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </section>
+
+    <hr class="home-divider" />
+
+    <!-- ── Interest tags ── -->
+    <div class="home-tags">
+      <span class="tag">Machine Learning</span>
+      <span class="tag">Computer Vision</span>
+      <span class="tag">Robotics</span>
+      <span class="tag">Deep Learning</span>
+      <span class="tag">Data Science</span>
+      <span class="tag">Your Interest</span>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; <span id="yr"></span> Your Name
+  </footer>
+
+  <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>
